@@ -1,0 +1,12 @@
+{
+  "standard": "HIPAA",
+  "category": "Security Rule",
+  "requirement_id": "164.312(a)(1)",
+  "description": "Implement technical security measures to guard against unauthorized access to electronic protected health information.",
+  "keywords": ["encryption", "access control", "encrypted_authentication"],
+  "checklist": [
+    "Ensure all PHI is encrypted at rest",
+    "Use role-based access controls",
+    "Maintain audit logs for access"
+  ]
+}
