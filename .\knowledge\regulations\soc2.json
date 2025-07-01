@@ -1,0 +1,12 @@
+{
+  "standard": "SOC2",
+  "category": "Security Principle",
+  "requirement_id": "CC6.1",
+  "description": "The entity implements logical access security software, infrastructure, or platforms to achieve the objectives of the criteria.",
+  "keywords": ["logical access", "data protection", "authorization"],
+  "checklist": [
+    "Verify that access to sensitive data is restricted",
+    "Ensure encrypted_authentication mechanisms are secure",
+    "Audit system access regularly"
+  ]
+}
