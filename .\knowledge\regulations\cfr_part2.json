@@ -1,0 +1,12 @@
+{
+  "standard": "CFR_Part2",
+  "category": "Confidentiality of Records",
+  "requirement_id": "CFR-PART2-SECURITY-01",
+  "description": "Programs must protect the confidentiality of patient records by limiting access to authorized personnel only.",
+  "keywords": ["confidentiality", "encrypted_access control", "patient record"],
+  "checklist": [
+    "Ensure sensitive data is encrypted in storage",
+    "Use role-based access controls for databases",
+    "Audit access to patient-related information"
+  ]
+}
