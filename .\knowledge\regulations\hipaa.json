@@ -1,0 +1,206 @@
+[
+  {
+    "standard": "HIPAA",
+    "category": "Security Rule",
+    "requirement_id": "164.312(a)(1)",
+    "description": "Implement technical security measures to guard against unauthorized access to electronic protected health information.",
+    "keywords": ["encryption", "access control", "authentication"],
+    "checklist": [
+      "Ensure all PHI is encrypted at rest",
+      "Use role-based access controls",
+      "Maintain audit logs for access"
+    ]
+  },
+  {
+    "standard": "HIPAA",
+    "description": "Implement technical security measures to guard against unauthorized access to electronic protected health information.",
+    "keywords": ["ssn", "password", "api_key", "token", "social security", "medical", "patient", "diagnosis", "encrypted_access control", "authentication"]
+  },
+  {
+    "standard": "HIPAA",
+    "category": "Security Rule",
+    "requirement_id": "164.312(a)(2)(i)",
+    "description": "Implement unique user identification for each person with access to electronic protected health information.",
+    "keywords": ["user ID", "authentication", "access control"],
+    "checklist": [
+      "Assign unique IDs to all users",
+      "Implement multi-factor authentication",
+      "Regularly review user access rights"
+    ]
+  },
+  {
+    "standard": "HIPAA",
+    "description": "Implement unique user identification for each person with access to electronic protected health information.",
+    "keywords": ["user ID", "authentication", "access control"]
+  },
+  {
+    "standard": "HIPAA",
+    "category": "Security Rule",
+    "requirement_id": "164.312(b)",
+    "description": "Implement automatic logoff for electronic systems that access electronic protected health information after a predetermined period of inactivity.",
+    "keywords": ["automatic logoff", "session timeout", "security"],
+    "checklist": [
+      "Set session timeout to 15 minutes or less",
+      "Notify users of impending logoff",
+      "Ensure all sessions are logged"
+    ]
+  },
+  {
+    "standard": "HIPAA",
+    "description": "Implement automatic logoff for electronic systems that access electronic protected health information after a predetermined period of inactivity.",
+    "keywords": ["automatic logoff", "session timeout", "security"]
+  },
+  {
+    "standard": "HIPAA",
+    "category": "Security Rule",
+    "requirement_id": "164.312(c)(1)",
+    "description": "Implement technical security measures to guard against unauthorized access to electronic protected health information that is being transmitted over an electronic communications network.",
+    "keywords": ["encryption", "data transmission", "network security"],
+    "checklist": [
+      "Use secure protocols (e.g., HTTPS, TLS)",
+      "Encrypt all data in transit",
+      "Regularly test network security"
+    ]
+  },
+  {
+    "standard": "HIPAA",
+    "description": "Implement technical security measures to guard against unauthorized access to electronic protected health information that is being transmitted over an electronic communications network.",
+    "keywords": ["encryption", "data transmission", "network security"]
+  },
+  {
+    "standard": "HIPAA",
+    "category": "Security Rule",
+    "requirement_id": "164.312(c)(2)",
+    "description": "Implement integrity controls to ensure that electronic protected health information is not improperly altered or destroyed.",
+    "keywords": ["data integrity", "checksums", "hashing"],
+    "checklist": [
+      "Use checksums or hashes for data verification",
+      "Implement version control for documents",
+      "Regularly back up data"
+    ]
+  },
+  {
+    "standard": "HIPAA",
+    "description": "Implement integrity controls to ensure that electronic protected health information is not improperly altered or destroyed.",
+    "keywords": ["data integrity", "checksums", "hashing"]
+  },
+  {
+    "standard": "HIPAA",
+    "category": "Security Rule",
+    "requirement_id": "164.312(d)",
+    "description": "Implement mechanisms to authenticate electronic protected health information and ensure its integrity.",
+    "keywords": ["authentication", "data integrity", "digital signatures"],
+    "checklist": [
+      "Use digital signatures for critical documents",
+      "Implement two-factor authentication",
+      "Regularly review authentication logs"
+    ]
+  },
+  {
+    "standard": "HIPAA",
+    "description": "Implement mechanisms to authenticate electronic protected health information and ensure its integrity.",
+    "keywords": ["authentication", "data integrity", "digital signatures"]
+  },
+  {
+    "standard": "HIPAA",
+    "category": "Security Rule",
+    "requirement_id": "164.312(e)(1)",
+    "description": "Implement security measures to ensure that electronic protected health information is not improperly altered or destroyed.",
+    "keywords": ["data protection", "backup", "disaster recovery"],
+    "checklist": [
+      "Regularly back up all electronic PHI",
+      "Implement disaster recovery plans",
+      "Test backup restoration processes"
+    ]
+  },
+  {
+    "standard": "HIPAA",
+    "description": "Implement security measures to ensure that electronic protected health information is not improperly altered or destroyed.",
+    "keywords": ["data protection", "backup", "disaster recovery"]
+  },
+  {
+    "standard": "HIPAA",
+    "category": "Security Rule",
+    "requirement_id": "164.312(e)(2)(i)",
+    "description": "Implement security measures to ensure that electronic protected health information is not improperly altered or destroyed during transmission.",
+    "keywords": ["data transmission", "encryption", "network security"],
+    "checklist": [
+      "Use secure transmission protocols",
+      "Encrypt all data in transit",
+      "Regularly test network security"
+    ]
+  },
+  {
+    "standard": "HIPAA",
+    "description": "Implement security measures to ensure that electronic protected health information is not improperly altered or destroyed during transmission.",
+    "keywords": ["data transmission", "encryption", "network security"]
+  },
+  {
+    "standard": "HIPAA",
+    "category": "Security Rule",
+    "requirement_id": "164.312(f)(1)",
+    "description": "Implement security measures to ensure that electronic protected health information is not improperly altered or destroyed during storage.",
+    "keywords": ["data storage", "encryption", "access control"],
+    "checklist": [
+      "Encrypt all stored electronic PHI",
+      "Implement access controls for storage systems",
+      "Regularly audit storage security"
+    ]
+  },
+  {
+    "standard": "HIPAA",
+    "description": "Implement security measures to ensure that electronic protected health information is not improperly altered or destroyed during storage.",
+    "keywords": ["data storage", "encryption", "access control"]
+  },
+  {
+    "standard": "HIPAA",
+    "category": "Security Rule",
+    "requirement_id": "164.312(f)(2)",
+    "description": "Implement security measures to ensure that electronic protected health information is not improperly altered or destroyed during processing.",
+    "keywords": ["data processing", "encryption", "integrity controls"],
+    "checklist": [
+      "Use checksums or hashes for data verification",
+      "Implement access controls for processing systems",
+      "Regularly test processing security"
+    ]
+  },
+  {
+    "standard": "HIPAA",
+    "description": "Implement security measures to ensure that electronic protected health information is not improperly altered or destroyed during processing.",
+    "keywords": ["data processing", "encryption", "integrity controls"]
+  },
+  {
+    "standard": "HIPAA",
+    "category": "Security Rule",
+    "requirement_id": "164.312(g)",
+    "description": "Implement security measures to ensure that electronic protected health information is not improperly altered or destroyed during transmission over a network.",
+    "keywords": ["network security", "encryption", "data transmission"],
+    "checklist": [
+      "Use secure protocols (e.g., HTTPS, TLS)",
+      "Encrypt all data in transit",
+      "Regularly test network security"
+    ]
+  },
+  {
+    "standard": "HIPAA",
+    "description": "Implement security measures to ensure that electronic protected health information is not improperly altered or destroyed during transmission over a network.",
+    "keywords": ["network security", "encryption", "data transmission"]
+  },
+  {
+    "standard": "HIPAA",
+    "category": "Security Rule",
+    "requirement_id": "164.312(h)",
+    "description": "Implement security measures to ensure that electronic protected health information is not improperly altered or destroyed during access.",
+    "keywords": ["access control", "authentication", "data integrity"],
+    "checklist": [
+      "Implement role-based access controls",
+      "Use multi-factor authentication",
+      "Regularly review access logs"
+    ]
+  },
+  {
+    "standard": "HIPAA",
+    "description": "Implement security measures to ensure that electronic protected health information is not improperly altered or destroyed during access.",
+    "keywords": ["access control", "authentication", "data integrity"]
+  }
+]
